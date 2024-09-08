@@ -1,26 +1,159 @@
 {
-  "name": "elit_front",
+  "name": "elit-front-end",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.8"
+    "@ant-design/plots": "^1.2.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@hookform/resolvers": "^2.9.7",
+    "@jest/globals": "^29.6.2",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.5",
+    "@react-pdf/layout": "3.6.2",
+    "@react-pdf/renderer": "^3.3.8",
+    "@react-pdf/yoga": "^4.1.2",
+    "@redux-saga/testing-utils": "^1.1.5",
+    "@reduxjs/toolkit": "^1.8.5",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.45",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "antd": "^5.10.0",
+    "axios": "^0.27.2",
+    "babel-eslint": "^10.1.0",
+    "buffer": "^6.0.3",
+    "caniuse-lite": "^1.0.30001453",
+    "chart.js": "^4.0.1",
+    "chartjs-plugin-datalabels": "^2.1.0",
+    "compodoc": "^0.0.41",
+    "date-fns": "^2.29.1",
+    "dayjs": "^1.11.5",
+    "file-saver": "^2.0.5",
+    "history": "^5.3.0",
+    "husky": "^8.0.3",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "npm-audit-report": "^5.0.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.0.1",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.2",
+    "react-google-recaptcha-v3": "^1.10.0",
+    "react-hook-form": "^7.39.1",
+    "react-icons": "^4.10.1",
+    "react-query": "^3.39.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-tippy": "^1.4.0",
+    "react-toastify": "^9.1.3",
+    "react-tooltip": "^4.5.1",
+    "recoil": "^0.7.4",
+    "redux-saga": "^1.2.1",
+    "redux-saga-test-plan": "^4.0.6",
+    "reselect": "^4.1.7",
+    "resolve-url-loader": "^4.0.0",
+    "sass-loader": "^12.3.0",
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3",
+    "sonar-scanner": "^3.1.0",
+    "styled-components": "^5.3.5",
+    "sweetalert2": "^11.4.10",
+    "typescript": "^4.7.4",
+    "url-join": "^5.0.0",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "node .\\src\\features\\shares\\Chat\\server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --coverage --updateSnapshot --watchAll=false --coverageDirectory=./target",
+    "eject": "react-scripts eject",
+    "coverage": "react-scripts test --coverage . --collectCoverageFrom='src/{components}/**/*.{ts,tsx,js}'",
+    "test-sonar": "react-scripts test --watchAll=false --coverage --collectCoverageFrom='src/{components}/**/*.{ts,tsx,js}' --testResultsProcessor jest-sonar-reporter",
+    "sonar": "node sonarqube-scanner.js",
+    "compodoc": "npx compodoc -p ./tsconfig.json -d ./target/doc --theme material",
+    "prepare": "husky install",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "npx eslint src/**/*.js --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.8"
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.18.6",
+    "@commitlint/cli": "^17.4.3",
+    "@commitlint/config-conventional": "^17.4.3",
+    "@types/file-saver": "^2.0.5",
+    "@types/react-query": "^1.2.9",
+    "@types/react-test-renderer": "^18.0.7",
+    "@types/redux-mock-store": "^1.0.3",
+    "@types/redux-persist": "^4.3.1",
+    "@types/styled-components": "^5.1.25",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "babel-jest": "^29.6.2",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-simple-import-sort": "^12.1.0",
+    "jest-localstorage-mock": "^2.4.26",
+    "jest-sonar-reporter": "^2.0.0",
+    "jest-styled-components": "^7.2.0",
+    "mock-local-storage": "^1.1.24",
+    "prettier": "^2.5.1",
+    "react-test-renderer": "^18.2.0",
+    "redux": "^4.2.1",
+    "redux-mock-store": "^1.5.4",
+    "sass": "^1.54.1",
+    "setimmediate": "^1.0.5",
+    "sonarqube-scanner": "^3.0.1",
+    "validate-branch-name": "^1.3.0"
+  },
+  "overrides": {
+    "@react-pdf/image": "2.2.3",
+    "@react-pdf/pdfkit": "3.0.4"
+  },
+  "jest": {
+    "coverageReporters": [
+      "text-summary",
+      "lcov"
+    ],
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "babel-jest"
+    },
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy",
+      "^worker$": "src/worker.js"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/(?!url-join|d3-|lodash-es)"
+    ]
   }
 }

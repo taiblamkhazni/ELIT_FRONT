@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyledLink tests props active 1`] = `
+.c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #116E9C;
+}
+
+.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #6FC1E2;
+}
+
+<a
+  className="c0"
+  href="/"
+  onClick={[Function]}
+/>
+`;

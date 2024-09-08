@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotifyLi /> Li has the correct styles 1`] = `
+.c0 {
+  border-bottom: 1px solid #CCCCCC;
+  padding: 12px 0px 7px 0px;
+  min-height: 56px;
+}
+
+<li
+  className="c0"
+/>
+`;

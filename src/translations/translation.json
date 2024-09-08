@@ -1,0 +1,582 @@
+{
+  "global": {
+    "projectName": "Elit",
+
+    "textAreaQuestion": {
+      "placeholder": "Votre réponse ici ...",
+      "maxLength": "Votre réponse ne doit pas dépasser les 400 caractères",
+      "pattern": "Votre réponse contient des caractères non acceptés."
+    },
+
+    "review": {
+      "question": "Question",
+      "comments": "Commentaires"
+    }
+  },
+
+  "profil": {
+    "title": "Mon compte",
+
+    "avatar": {
+      "change": "Changer la photo",
+      "import": "Importer une photo",
+      "delete": "Supprimer",
+      "importRules": "Formats autorisés .jpg .jpeg ou .png, taille maximale acceptée 800Ko.",
+      "error": "Votre photo ne respecte pas les critères recommandés : ",
+      "avatarMaxSize": "la taille maximale acceptée est 800Ko.",
+      "wrongFormat": "la photo doit être au format JPG, JPEG ou PNG.",
+      "changeSucces": "Votre photo a bien été modifiée.",
+      "deleteSucces": "Votre photo a bien été supprimée."
+    },
+
+    "changePassword": {
+      "title": "Mot de passe",
+      "oldPasswordLabel": "Ancien mot de passe",
+      "oldPasswordPlaceholder": "Entrez votre ancien mot de passe",
+      "newPasswordLabel": "Nouveau mot de passe",
+      "newPasswordPlaceholder": "Entrez votre nouveau mot de passe",
+      "confirmPasswordLabel": "Confirmation du mot de passe",
+      "confirmPasswordPlaceholder": "Confirmez votre nouveau mot de passe",
+      "submit": "Envoyer"
+    },
+
+    "userInfoForm": {
+      "changePassword": "Modifier mon mot de passe",
+      "info": "Tous les champs sont obligatoires",
+      "lastnameLabel": "Nom",
+      "lastnamePlaceholder": "Dupont",
+      "firstnameLabel": "Prénom",
+      "firstnamePlaceholder": "Antoine",
+      "emailLabel": "Addresse e-mail",
+      "emailPlaceholder": "Votre email",
+      "submit": "Enregistrer mes informations",
+      "cancel": "Annuler",
+      "error": "Une erreur de modification de vos informations est survenue !"
+    }
+  },
+
+  "auth": {
+    "elitDescription": "La méthodologie à la mesure de votre projet",
+    "title": "Se connecter",
+    "registerTitle": "S'inscrire",
+    "confirmTitle": "Votre compte a bien été activé !",
+    "confirmDescription": "Vous pouvez désormais vous connecter à ELIT à l'aide de vos identifiants.",
+    "forgotPasswordTitle": "Mot de passe oublié ?",
+    "forgotPasswordGoBack": "Revenir à la page de connexion",
+    "login": "Se connecter",
+    "createAccount": "S'inscrire",
+    "existingAccount": "Vous avez déjà un compte ?",
+    "notMemberYet": "Pas encore membre ?",
+    "resetPasswordSuccess": "Le mot de passe est mis à jour",
+    "mailResendSuccess": "Un autre mail de confirmation a été envoyé.",
+    "accountNotActivated": {
+      "title": "Votre compte n'est pas activé",
+      "text": "Vous n’avez pas encore activé votre compte!",
+      "description": "Vous allez recevoir un e-mail afin d’activer votre compte. Attention, le lien a une durée de validité de 48 heures.",
+      "btn": "Activer mon compte"
+    },
+
+    "activationError": {
+      "title": "Erreur d'activation de votre compte",
+      "description": "Une erreur est survenue lors de l'activation de votre compte.",
+      "tryAgain": "Veuillez réessayer plus tard ou cliquez sur le bouton ci-dessous.",
+      "resend": "Renvoyer un e-mail",
+      "warning": "Attention, le lien d'activation du compte a une durée de validité de 48 heures.",
+      "contactText": "Si le problème persiste, veuillez contacter l'administrateur par e-mail :",
+      "contactEmail": "elit.global@capgemini.com"
+    },
+
+    "expiredLink": {
+      "title": "Lien expiré",
+      "description": "Le lien d'activation du compte a déjà été utilisé ou n'est plus valide.",
+      "tryAgain": "Cliquez sur le bouton suivant pour obtenir un nouveau mail de confirmation.",
+      "resend": "Renvoyer un e-mail",
+      "warning": "Attention, le lien d'activation du compte a une durée de validité de 48 heures.",
+      "contactText": "Si le problème persiste, veuillez contacter l'administrateur par e-mail :",
+      "contactEmail": "elit.global@capgemini.com"
+    },
+
+    "form": {
+      "connexionButton": "Se connecter",
+      "forgotPassword": "Mot de passe oublié ?",
+      "register": "S'inscrire",
+      "send": "Envoyer",
+      "emailLabel": "Adresse e-mail",
+      "confirmEmailLabel": "Confirmation de l'adresse e-mail",
+      "emailPlaceholder": "dupont@gmail.com",
+      "lastnameLabel": "Nom",
+      "lastnamePlaceholder": "Dupont",
+      "firstnameLabel": "Prénom",
+      "firstnamePlaceholder": "Jean",
+      "passwordLabel": "Mot de passe",
+      "passwordPlaceholder": "Mot de passe",
+      "confirmPasswordLabel": "Confirmation du mot de passe",
+      "confirmPasswordPlaceholder": "Confirmation du mot de passe",
+      "newPasswordLabel": "Nouveau mot de passe",
+      "newPasswordPlaceholder": "Entrez votre nouveau mot de passe",
+      "confirmNewPasswordLabel": "Confirmation du mot de passe",
+      "confirmNewPasswordPlaceholder": "Confirmez votre nouveau mot de passe",
+
+      "passwordTooltip": {
+        "minCharacters": "12 caractères au minimum",
+        "minUppercase": "Au moins une majuscule (A-Z)",
+        "minUndercase": "Au moins une minuscule (a-z)",
+        "noSpace": "Pas d'espace",
+        "minNumber": "Au moins un chiffre (0-9)",
+        "minSpecialCharacters": "Au moins un caractère spécial",
+        "specialCharactersList": "(~!@#$%^&*()_+`-=[];':\",./?)"
+      }
+    },
+
+    "errors": {
+      "invalidCredentials": "Adresse email ou mot de passe invalide.",
+      "tokenError": "Erreur de récupération des données",
+      "connectionError": "Échec de la connexion",
+      "inscriptionError": "Une erreur est survenue lors de votre inscription. Veuillez réessayer.",
+      "accountAlreadyActivated": "Ce compte a déjà été activé",
+      "accountNotActivated": "Votre compte n'est pas activé.",
+      "serverError": "Une erreur est survenue, veuillez réessayer plus tard.",
+      "otherError": "Une erreur est survenue, veuillez réessayer plus tard."
+    }
+  },
+
+  "administration": {
+    "project": {
+      "confirmButton": "Confirmer",
+      "deleteButton": "Supprimer"
+    },
+
+    "validateProject": {
+      "title": "Validation du projet",
+      "text": "Validation avec success",
+      "confirmButton": "Oui"
+    },
+
+    "deleteProject": {
+      "title": "Confirmation suppression du projet",
+      "textFirstHalf": "Confirmez-vous la suppression du projet",
+      "textSecondHalf": "Cette action est irréversible.",
+      "confirmDeleteButton": "Supprimer",
+      "cancelDeleteButton": "Annuler"
+    },
+
+    "confirmProject": {
+      "title": "Confirmation ou rejet des projets en attente",
+      "textFirstHalf": "Voulez-vous",
+      "textSecondHalf": "le projet [Nom du projet] ? Cette action est irréversible.",
+      "actionTypeConfirmation": "Confirmation",
+      "actionTypeRejection": "Rejet",
+      "confirm": "confirmer",
+      "reject": "rejeter",
+      "confirmButton": "Confirmer",
+      "rejectButton": "Rejeter",
+      "cancelButton": "Annuler",
+      "confirmInputLabel": "Entrer l'ID du projet à confirmer",
+      "confirmInputPlaceholder": "ID",
+      "confirmInputButton": "CONFIRMER",
+      "rejectInputLabel": "Entrer l'ID du projet à rejeter",
+      "rejectInputPlaceholder": "ID",
+      "rejectInputButton": "REJETER"
+    }
+  },
+
+  "projectDetails": {
+    "filesLabel": "Fichiers",
+    "allProjects": "Tous les projets",
+    "projectBoard": "Tableau de bord du projet",
+    "staffLabel": "Collaborateurs",
+    "createdAt": "Crée le",
+    "choose": [
+      "Pour démarrer l’aide à la décision du choix de la méthode de projet ",
+      "veuillez choisir l’une des solutions ci-dessous : "
+    ],
+    "collabAnalysis": "Analyse collaborative",
+    "collabAnalysisDescription": [
+      "Cette solution est basée sur l’analyse des données de votre ",
+      "projet et la participation de votre équipe. "
+    ],
+    "aiAnalysis": "Analyse avec l'intelligence artificielle",
+    "aiAnalysisDescription": [
+      "Cette solution s’appuie sur l’IA pour vous recommander la ",
+      "meilleure méthode à partir de vos données. "
+    ],
+    "learnMore": "En savoir plus",
+    "start": "Démarrer",
+    "contributors": {
+      "lastname": "Nom",
+      "firstname": "Prénom",
+      "function": "Fonction sur le projet",
+      "role": "Rôle sur le projet"
+    },
+    "delete": {
+      "title": "Êtes-vous sûr?",
+      "text": "Cette action est irréversible ! Ce fichier sera supprimé définitivement",
+      "confirmButton": "Supprimer",
+      "cancelButton": "Annuler"
+    }
+  },
+
+  "projectDashboard": {
+    "bord": "Tableau de bord",
+    "files": "Fichiers",
+    "createdAt": "Crée le",
+
+    "collabTable": {
+      "title": "Collaborateur",
+      "edit": "Éditer",
+      "roleCDP": "Chef de projet",
+      "roleInfo": "- Consultant"
+    },
+    "fileTable": {
+      "delete": {
+        "title": "Êtes-vous sûr?",
+        "text": "Cette action est irréversible ! Ce fichier sera supprimé définitivement",
+        "confirmButton": "Supprimer",
+        "cancelButton": "Annuler"
+      },
+      "moreOptions": {
+        "open": "Consulter",
+        "rename": "Renommer",
+        "share": "Partager",
+        "download": "Télécharger",
+        "delete": "Supprimer"
+      },
+      "file": "Document",
+      "noFile": "Aucun fichier",
+      "createdAt": "Date de création",
+      "editedBy": "Modifié par",
+      "download": "Télécharger",
+      "actions": "Actions"
+    },
+    "listStage": {
+      "multicriteria": "Analyse multicritères",
+      "predictibility": "Choix de la méthodologie",
+      "execution": "Choix de la méthode"
+    },
+    "listStageAI": {
+      "multicriteria": "Saise des données",
+      "predictibility": "Prédiction de l'approche",
+      "execution": "choix de la méthode"
+    },
+    "addContributorModal": {
+      "contributors": "Collaborateurs",
+      "addContributors": "Ajouter des collaborateurs"
+    },
+    "addFileModal": {
+      "title": "Fichiers",
+      "text": "Certains fichiers que vous essayez de télécharger existent déjà dans le projet.",
+      "saveButton": "Sauvegarder",
+      "addFile": "Ajouter un fichier",
+      "confirm": {
+        "title": "Êtes-vous sûr?",
+        "text": "Cette action est irréversible ! Ce fichier sera ajouté définitivement",
+        "confirmButton": "Valider",
+        "cancelButton": "Annuler"
+      },
+      "error": {
+        "title": "Oops..",
+        "text": "Certains fichiers que vous essayez de télécharger existent déjà dans le projet."
+      }
+    },
+    "changeFileNameModal": {
+      "title": "Renommage du nom de fichier",
+      "addContributors": "Ajouter des collaborateurs",
+      "confirmButton": "Valider",
+      "cancelButton": "Annuler",
+      "fileNameLabel": "Nom de fichier",
+      "fileNamePlaceholder": "Nom_de_fichier",
+      "confirm": {
+        "title": "Êtes-vous sûr?",
+        "text": "Cette action est irréversible ! Ce fichier sera renommé définitivement",
+        "confirmButton": "Valider",
+        "cancelButton": "Annuler"
+      }
+    },
+    "reportListModal": {
+      "title": "Historique des rapports",
+      "closeButton": "Fermer",
+      "description": "Retrouvez ici tous les rapports ELIT qui ont été générés concernant",
+      "file": "Document",
+      "iteration": "Itération",
+      "createdAt": "Date de création",
+      "actions": "Actions",
+      "menu": {
+        "preview": "Consulter",
+        "download": "Télécharger",
+        "delete": "Supprimer"
+      },
+      "delete": {
+        "title": "Êtes-vous sûr?",
+        "text": "Cette action est irréversible! Ce fichier sera supprimé définitivement.",
+        "confirmButton": "Supprimer",
+        "cancelButton": "Annuler"
+      }
+    },
+    "notifyTable": {
+      "title": "Notifications"
+    }
+  },
+
+  "projectCreation": {
+    "search": {
+      "title": "Mes projets"
+    },
+    "filter": {
+      "allLabel": "Tous",
+      "confirmedLabel": "Acceptés",
+      "waitingLabel": "En attente(s)",
+      "archivedLabel": "Refusés",
+      "trierLabel": "Trier par",
+      "selectTrierLabel": {
+        "options": {
+          "recent": "Du + récent au - récent",
+          "old": "Du - récent au + récent"
+        }
+      },
+      "selectCustomLabel": "Statut du projet",
+    "searchLabel": "Votre recherche",
+    "searchPlaceholder": "Saisissez votre recherche"
+    },
+    "projectItem": {
+      "moi": "moi",
+      "createdAt": "Crée le",
+      "createdBy": "Crée par",
+      "collaborator": "collaborateur",
+      "openProject": "Voir le projet"
+    },
+    "creationModal": {
+      "title": "Soumettre une demande de création d'un projet",
+      "startCreation": "Créer un nouveau projet",
+      "previousStep": "Précédent",
+      "nextStep": "Passer à l'étape suivante",
+      "createProject": "Créer le projet",
+      "steps": {
+        "description": "Décrire le projet",
+        "import": "Importer des fichiers",
+        "addCollaborator": "Ajouter des collaborateurs-rices"
+      },
+      "onSubmit": {
+        "title": "Finalisation de votre demande de création d'un projet",
+        "text": "Souhaitez-vous valider votre demande de création du projet ?",
+        "confirmButton": "Confirmer"
+      },
+      "handleCancel": {
+        "title": "Souhaitez-vous abondonner la création du projet ? ",
+        "text": "Vous êtes sur le point de fermer le processus de création d’un projet. Vos données ne seront pas enregistrées. Confirmez-vous votre demande ?",
+        "confirmButton": "Confirmer",
+        "cancelButton": "Annuler"
+      }
+    },
+    "listProjects": {
+      "createdProjects": "Mes projets créés",
+      "affectedProjects": "Mes projets affectés",
+      "noProjects": "Vous n’avez créé aucun projet",
+      "deleteProject": {
+        "title": "Souhaitez-vous supprimer le projet",
+        "text": "Si vous confirmez, ce projet sera définitivement supprimé. ",
+        "confirmButton": "Confirmer",
+        "cancelButton": "Annuler"
+      }
+    },
+    "moreOptions": {
+      "modifyProject": "Modifier le projet",
+      "deleteProject": "Supprimer le projet",
+      "startAnalysis": "Lancer une analyse",
+      "startCollabAnalysis": "Lancer une analyse collaborative",
+      "restartCollabAnalysis": "Reprendre analyse collaborative",
+      "startAIAnalysis": "Lancer une analyse IA",
+      "restartAIAnalysis": "Reprendre analyse IA",
+      "noProjects": "Vous n’avez créé aucun projet"
+    },
+    "form": {
+      "descriptionProjectTitle": "Décrire le projet",
+      "projetNameLabel": "Nom du projet",
+      "projetNamePlaceholder": "ELIT",
+      "projetDescriptionLabel": "Description du projet",
+      "projetDescriptionPlaceholder": "Conception d’une application mobile sur le thème de l’art",
+      "sensitivityDataTitle": "Sensibilité des données",
+      "sensitivityDataCommitment": "Dans le cadre de l’utilisation de l’application ELIT, je m’engage à:",
+      "sensitivityDataSelect1": "Renseigner exclusivement des données sans enjeu de confidentialité ;",
+      "sensitivityDataSelect2": [
+        "Préserver la confidentialité des données personnelles de chaque ",
+        "utilisateur (sans lien avec son activité ou ses interactions avec ",
+        "ELIT) ;"
+      ],
+      "sensitivityDataSelect3": "Garder strictement confidentiel mon identifiant et mot de passe.",
+      "acceptTerms": "Je confirme avoir pris connaissance des conditions et je les accepte."
+    },
+    "fileInput": {
+      "title": "Importer des fichiers",
+      "title2": "Ajouter un fichier",
+      "description": [
+        "Pour faciliter l’analyse du projet, vous pouvez ajouter les ",
+        "documents suivants : le cahier des charges, la liste des exigences, ",
+        "l’étude d’opportunité,..."
+      ],
+      "header": "Importez depuis votre ordinateur ou glissez-déposez le fichier ici.",
+      "importButton": "Importer",
+      "fileFormat": [
+        "Formats acceptés (.pdf, .docx, .pptx) le poids autorisé est de 200MB ",
+        "maximum"
+      ]
+    },
+    "fileItem": {
+      "title": "Fichier",
+      "open": "Consulter",
+      "delete": "Supprimer"
+    },
+    "selectCollaborator": {
+      "title": "Ajouter des collaborateurs",
+      "description": [
+        "Les collaborateurs du projet sur ELIT peuvent avoir 2 types de ",
+        "droit d’accès. Le contributeur participe aux sessions de vote et ",
+        "de brainstorming. L’observateur aura seulement accès aux résultats ",
+        "d’analyses."
+      ],
+      "searchTitle": "Ajouter un collaborateur",
+      "searchPlaceholder": "Adresse mail, nom, prénom ou fonction",
+      "function": "Fonction du collaborateur",
+      "rights": "Droit d'accès",
+      "addCollabaratorButton": "Ajouter",
+      "fetchError": "Error fetching collaborators:",
+      "table": {
+        "title": "Liste de collaborateurs",
+        "function": "Fonction",
+        "rights": "Droit d'accès",
+        "delete": "Supprimer"
+      }
+    }
+  },
+
+  "dashboard": {
+    "swipper": {
+      "title": "Nos solutions d’aide à la décision",
+      "collaborativeAnalysis": "Un choix de méthode avec une analyse collaborative",
+      "collaborativeAnalysisDescription": "Cette solution est basée sur l’analyse des données de votre projet et la participation de votre équipe.",
+      "more": "En savoir plus",
+      "aiSupport": "Une aide à la décision avec l’intelligence artificielle",
+      "aiSupportDescription": "Cette solution s’appuie sur l’IA pour vous recommander la meilleure méthode à partir de vos données."
+    },
+
+    "ignoreButtonTooltip":{
+      "ignoreButton": "Ignorer"
+    },
+
+    "media": {
+      "whatIsElit": "Qu'est-ce que ELIT ?",
+      "elitDescription": [
+        "ELIT est un outil d'aide à la décision, développé par une équipe de ",
+        "chercheurs, d'ingénieurs et de développeurs afin de faciliter le ",
+        "choix d'une méthodologie de gestion de projet. En se basant sur les ",
+        "caractéristiques initiales du projet et grâce à un échange ",
+        "collaboratif avec l'ensemble des parties prenantes, l'outil propose ",
+        "en moins de 2 heures une solution qui vous permet de choisir la ",
+        "méthode la plus adaptée via : "
+      ],
+      "multicriteriaAnalysis2": "Une analyse multi-critères",
+      "predictiveAnalysis": "Une analyse prédictive basée sur l'intelligence artificielle",
+      "welcomeVideoDescription": [
+        "Sur la page d’accueil vous trouverez une vidéo expliquant ce qu’est ",
+        "ELIT. Nous vous conseillons vivement de la regarder afin d’en ",
+        "comprendre les différents enjeux et ses bénéfices pour construire ",
+        "votre décision collaborative et prédictive. "
+      ]
+    },
+
+    "presentationPanel": {
+      "welcome": "Bienvenue sur ELIT, Marie",
+      "description1": "L’outil pour choisir la meilleure méthode de gestion pour votre projet !",
+      "description2": [
+        "Créez votre projet sur ELiT, puis choisissez entre 2 solutions pour ",
+        "déterminer la méthode de gestion la plus adaptée pour votre projet. "
+      ],
+      "projectCreation": [
+        "Vous souhaitez créer un projet afin d’analyser la meilleure méthode ",
+        "à utiliser pour votre prochain projet ? Rendez-vous à la page ",
+        "d’accueil ! Cliquez ensuite sur \"Créer un projet\" et le tour est ",
+        "joué. "
+      ],
+      "next": "Suivant"
+    },
+
+    "toolTipModal": {
+      "congratsOnFinishingIntro": "Bravo vous avez terminé votre parcours",
+      "useDifferentFunctionalities": [
+        "Vous n’avez maintenant plus qu’à utiliser les différentes ",
+        "fonctionnalités de l’application. "
+      ],
+      "navigateOrCreateFirstProject": [
+        "Naviguez entre les différentes catégories si vous souhaitez les ",
+        "redécouvrir ! Enfin lancez-vous et créer votre premier projet ! "
+      ],
+      "theEnd": "Fin"
+    }
+  },
+
+  "pdfReport": {
+    "createdAt": "Crée le",
+    "collabsTitle": "Collaborateurs du projet: ",
+    "roleCDP": "Chef de projet",
+    "subtitleEtape1": "Étape 1 : ",
+    "subtitleEtape2": "Étape 2 : ",
+    "textFooter": "Projet : "
+  },
+
+  "analysePrevisibilite": {
+    "brainstorming": {
+      "nextStep": "Révisez les réponses aux questions afin de lancer une nouvelle analyse",
+      "nextStepButton": "Lancer l'analyse",
+      "description": [
+        "L'objectif du brainstorming est d'améliorer le choix de la méthodologie. Cette étape fait l'objet d'une discussion concernant l'analyse multicritère. Toute l'équipe peut ajouter une idée, poser une question ou proposer une action dans la zone de saisie... Le créateur du projet pourra ensuite affiner les réponses aux questions. ",
+        "Ci-dessous, seuls les aspects décisionnels, ayant obtenu un score de 50% lors de l'analyse multicritère, sont présentés. "
+      ],
+      "listComments": {
+        "cancel": "Annuler",
+        "add": "Ajouter",
+        "submit": "Valider la modification"
+      },
+      "comment": {
+        "modify": "Modifier",
+        "delete": "Supprimer",
+        "solve": "Résoudre"
+      },
+      "commentModal": {
+        "modify": "Modifier ma note",
+        "add": "Ajouter une note",
+        "confirm": "Valider"
+      },
+      "passToStage3": {
+        "title": "Êtes-vous sûr?",
+        "text": "Cette action est irréversible ! Vous voulez terminer cette analyse et passer directement à l'étape 3?",
+        "confirm": "Valider",
+        "cancel": "Annuler"
+      },
+      "launchAnalyse": {
+        "title": "Êtes-vous sûr?",
+        "text": "Cette action est irréversible ! Vous voulez lancer l'analyse?",
+        "confirm": "Valider",
+        "cancel": "Annuler"
+      },
+      "commentForm": {
+        "changeNote": "Modifier ma note",
+        "addNote": "Ajouter une note",
+        "placeholder": "Proposer une action, poser une question, ajouter une idéé ..."
+      },
+      "answerForm" : {
+        "evaluationCriteria" : ["Consultez et modifiez le poids des critères d'evaluation en haut de ",
+        "la page, puis évaluez la qualité de votre réponse en fonction des ",
+        "critères suivants : 1 rond étant la note la moins satisfaisante et 5 ",
+        "ronds la plus satisfaisante. "],
+        "invalidInput": "Input n'est pas validé",
+        "inputRequired": "Ce champ est obligatoire !",
+        "answerWordLimit": "Votre réponse ne doit pas dépasser les 400 caractères"
+      },
+      "answerModal": {
+        "changeAnswer": "Modifier la réponse",
+        "changeYourAnswer": "Modifier votre réponse",
+        "cancel": "Annuler",
+        "submit": "Valider la modification"
+      }
+    }
+  }
+}

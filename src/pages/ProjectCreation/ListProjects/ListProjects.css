@@ -1,0 +1,42 @@
+.m-0{
+    margin: 0px;
+}
+
+.p-0{
+    padding: 0px;
+}
+
+.mx-20{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.ml-20{
+    margin-left: 20px;
+}
+
+.mr-4{
+    margin-right: 4px;
+}
+
+.ml-4{
+    margin-left: 4px;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.no-projects-message {
+  color: #1F1A28;
+  text-align: center;
+  font-size: 1rem;
+}
+.no-projects-message h2 {
+  font-weight: normal;
+  line-height: 2rem;
+}

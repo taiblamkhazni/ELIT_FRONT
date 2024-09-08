@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  # Application Container
+  # refer to azure-pipeline variable project_name
+  lge_elit_front:
+    build: ./build
+    volumes:
+      - ./:/var/workspace/elit-front
+    networks:
+      - innovation_default
+
+networks:
+  innovation_default:
+    external:
+      name: innovation_default

@@ -1,0 +1,9 @@
+sonar-project.properties
+.validate-branch-namerc.js
+.editorconfig
+.commitlintrc.js
+/.vscode
+/.husky
+/.devcontainer
+/node_modules
+test.log

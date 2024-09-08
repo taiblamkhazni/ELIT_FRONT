@@ -1,0 +1,54 @@
+# Run pipeline whenever a commit or tag is pushed
+trigger:
+  tags:
+    include:
+      - "*.*.*"
+  branches:
+    include:
+      - "*"
+
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      endpoint: SogetiLabsFranceRepository
+      name: LGE_Templates/LGE_Templates
+
+pool: labs-pool
+
+variables:
+  - name: project_group
+    value: "ELIT"
+  - name: project_name
+    value: "lge_elit_front"
+  - name: imageRepository
+    value: lge-elit/lge-elit-front
+  - name: dockerRegistryServiceConnection
+    value: SogetiLabsFranceRegistry
+  - name: dockerfilePath
+    value: $(Build.SourcesDirectory)/Dockerfile
+  - name: deploymentName
+    value: "elit-front"
+  - name: deploymentIntegName
+    value: "elit-front"
+  - name: kubernetesNamespace
+    value: "lge-elit"
+  - name: kubernetesIntegNamespace
+    value: "lge-elit"
+  - name: kubernetesSecret
+    value: "lge-elit-config"
+  - name: kubernetesIntegSecret
+    value: "lge-elit-integ-config"
+  # Include template variables
+  - template: templates-general/variables.yml@templates
+
+extends:
+  template: templates-general/azure-general-front-tpl.yml@templates
+  parameters:
+    DEPLOY_INTEG: true
+    DEPLOY_PROD: false
+    SCAN_SQ: true
+    NO_QUALITY_FAIL : false
+ 
+ 
+ 

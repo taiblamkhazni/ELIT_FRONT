@@ -3,34 +3,45 @@
 # dependencies
 /node_modules
 /.pnp
+/build
 .pnp.js
-.yarn/install-state.gz
 
 # testing
-/coverage
+# /coverage
+*target/
+test.log
 
-# next.js
-/.next/
-/out/
+#IDE VSCode
+/.vscode/settings.json
+/.vscode/launch.json
 
-# production
-/build
-
+#IDE JetBrains
+.idea
+.idea/*
+.idea/
 # misc
 .DS_Store
-*.pem
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+.env
+.env.development
 
-# debug
+settings.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
-.env*.local
+#sonarqube
+test-report.xml
+sonarqube-scanner.js
+/coverage
+/.scannerwork
+test.log
+sonar-project-local.properties
 
-# vercel
-.vercel
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+#package
+package-lock.json

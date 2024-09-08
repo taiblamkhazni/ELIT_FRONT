@@ -1,0 +1,28 @@
+@keyframes antRotate {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.spin {
+    animation: antRotate 2s linear infinite;
+    display: block;
+}
+
+.wrapperFullLoading .ant-spin {
+    max-height: 50% !important;
+    display: block;
+}
+
+.wrapperFullLoading .ant-spin-text {
+    color: #1F1A28;
+    top: 55% !important;
+}
+
+.wrapperFullLoading .ant-spin-blur {
+    opacity: 0.2;
+}

@@ -1,0 +1,36 @@
+.oldPass {
+    color: #BF4F74 !important;
+    border: 2px solid #BF4F74 !important;
+    border-radius: 3px !important;
+}
+
+.newPasswordError {
+    color: #BF4F74 !important;
+    border: 2px solid #BF4F74 !important;
+    border-radius: 3px !important;
+}
+
+.confirmPasswordError {
+    color: #BF4F74 !important;
+    border: 2px solid #BF4F74 !important;
+    border-radius: 3px !important;
+}
+
+.infoTooltip {
+    background-color: #E2F0F9 !important;
+    color: black !important;
+    border: 2px solid #248BC0 !important;
+    border-radius: 10px !important;
+}
+
+.toolTipTextContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.tooltipColumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    width: 200px;
+}

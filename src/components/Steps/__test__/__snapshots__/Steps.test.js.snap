@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomSteps component renders correctly with default props 1`] = `
+.c0 .ant-steps-item-tail {
+  margin-top: 1px;
+  left: -1px;
+  padding: 0 !important;
+}
+
+.c0 .ant-steps-item-tail::after {
+  height: 3px;
+}
+
+.c0 .ant-steps-item-icon {
+  margin: 0px;
+}
+
+.c0 .ant-steps-item-content {
+  width: 100%;
+  margin-top: 0px !important;
+}
+
+.c0 .ant-steps-item-title {
+  margin-left: -15px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.c0 {
+  width: 90%;
+  margin: 27px auto 40px auto;
+}
+
+<div
+  className="ant-steps ant-steps-horizontal c0 steps-custom css-dev-only-do-not-override-3dggrg ant-steps-label-vertical"
+  style={Object {}}
+>
+  <div
+    className="ant-steps-item ant-steps-item-process ant-steps-item-custom ant-steps-item-active"
+    style={Object {}}
+  >
+    <div
+      className="ant-steps-item-container"
+    >
+      <div
+        className="ant-steps-item-tail"
+      />
+      <div
+        className="ant-steps-item-icon"
+      >
+        <span
+          className="ant-steps-icon"
+        >
+          <img
+            alt=""
+            data-testid="oval"
+            src="data:image/svg+xml;utf8,%3Csvg%20viewBox=%220%200%2017%2016%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%0A%20%20%20%20%3Cpath%20fill-rule=%22evenodd%22%20clip-rule=%22evenodd%22%20d=%22M8.5%2016C12.9183%2016%2016.5%2012.4183%2016.5%208C16.5%203.58172%2012.9183%200%208.5%200C4.08172%200%200.5%203.58172%200.5%208C0.5%2012.4183%204.08172%2016%208.5%2016Z%22%20fill=%22white%22/%3E%0A%20%20%20%20%3Cpath%20fill-rule=%22evenodd%22%20clip-rule=%22evenodd%22%20d=%22M8.5%2012C10.7091%2012%2012.5%2010.2091%2012.5%208C12.5%205.79086%2010.7091%204%208.5%204C6.29086%204%204.5%205.79086%204.5%208C4.5%2010.2091%206.29086%2012%208.5%2012Z%22%20fill=%22%23CCCCCC%22/%3E%0A%20%20%20%20%3C/svg%3E%20%20%20%20%0A%20%20%20%20"
+            style={
+              Object {
+                "color": undefined,
+                "fill": undefined,
+                "height": "16px",
+                "width": "17px",
+              }
+            }
+          />
+        </span>
+      </div>
+      <div
+        className="ant-steps-item-content"
+      >
+        <div
+          className="ant-steps-item-title"
+        >
+          Step 1
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ant-steps-item ant-steps-item-wait ant-steps-item-custom"
+    style={Object {}}
+  >
+    <div
+      className="ant-steps-item-container"
+    >
+      <div
+        className="ant-steps-item-tail"
+      />
+      <div
+        className="ant-steps-item-icon"
+      >
+        <span
+          className="ant-steps-icon"
+        >
+          <img
+            alt=""
+            data-testid="oval"
+            src="data:image/svg+xml;utf8,%3Csvg%20viewBox=%220%200%2017%2016%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%0A%20%20%20%20%3Cpath%20fill-rule=%22evenodd%22%20clip-rule=%22evenodd%22%20d=%22M8.5%2016C12.9183%2016%2016.5%2012.4183%2016.5%208C16.5%203.58172%2012.9183%200%208.5%200C4.08172%200%200.5%203.58172%200.5%208C0.5%2012.4183%204.08172%2016%208.5%2016Z%22%20fill=%22white%22/%3E%0A%20%20%20%20%3Cpath%20fill-rule=%22evenodd%22%20clip-rule=%22evenodd%22%20d=%22M8.5%2012C10.7091%2012%2012.5%2010.2091%2012.5%208C12.5%205.79086%2010.7091%204%208.5%204C6.29086%204%204.5%205.79086%204.5%208C4.5%2010.2091%206.29086%2012%208.5%2012Z%22%20fill=%22%23CCCCCC%22/%3E%0A%20%20%20%20%3C/svg%3E%20%20%20%20%0A%20%20%20%20"
+            style={
+              Object {
+                "color": undefined,
+                "fill": undefined,
+                "height": "16px",
+                "width": "17px",
+              }
+            }
+          />
+        </span>
+      </div>
+      <div
+        className="ant-steps-item-content"
+      >
+        <div
+          className="ant-steps-item-title"
+        >
+          Step 2
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ant-steps-item ant-steps-item-wait ant-steps-item-custom"
+    style={Object {}}
+  >
+    <div
+      className="ant-steps-item-container"
+    >
+      <div
+        className="ant-steps-item-tail"
+      />
+      <div
+        className="ant-steps-item-icon"
+      >
+        <span
+          className="ant-steps-icon"
+        >
+          <img
+            alt=""
+            data-testid="oval"
+            src="data:image/svg+xml;utf8,%3Csvg%20viewBox=%220%200%2017%2016%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%0A%20%20%20%20%3Cpath%20fill-rule=%22evenodd%22%20clip-rule=%22evenodd%22%20d=%22M8.5%2016C12.9183%2016%2016.5%2012.4183%2016.5%208C16.5%203.58172%2012.9183%200%208.5%200C4.08172%200%200.5%203.58172%200.5%208C0.5%2012.4183%204.08172%2016%208.5%2016Z%22%20fill=%22white%22/%3E%0A%20%20%20%20%3Cpath%20fill-rule=%22evenodd%22%20clip-rule=%22evenodd%22%20d=%22M8.5%2012C10.7091%2012%2012.5%2010.2091%2012.5%208C12.5%205.79086%2010.7091%204%208.5%204C6.29086%204%204.5%205.79086%204.5%208C4.5%2010.2091%206.29086%2012%208.5%2012Z%22%20fill=%22%23CCCCCC%22/%3E%0A%20%20%20%20%3C/svg%3E%20%20%20%20%0A%20%20%20%20"
+            style={
+              Object {
+                "color": undefined,
+                "fill": undefined,
+                "height": "16px",
+                "width": "17px",
+              }
+            }
+          />
+        </span>
+      </div>
+      <div
+        className="ant-steps-item-content"
+      >
+        <div
+          className="ant-steps-item-title"
+        >
+          Step 3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CustomSteps component renders correctly with steps and current props 1`] = `
+.c0 .ant-steps-item-tail {
+  margin-top: 1px;
+  left: -1px;
+  padding: 0 !important;
+}
+
+.c0 .ant-steps-item-tail::after {
+  height: 3px;
+}
+
+.c0 .ant-steps-item-icon {
+  margin: 0px;
+}
+
+.c0 .ant-steps-item-content {
+  width: 100%;
+  margin-top: 0px !important;
+}
+
+.c0 .ant-steps-item-title {
+  margin-left: -15px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.c0 {
+  width: 90%;
+  margin: 27px auto 40px auto;
+}
+
+<div
+  className="ant-steps ant-steps-horizontal c0 steps-custom css-dev-only-do-not-override-3dggrg ant-steps-label-vertical"
+  style={Object {}}
+>
+  <div
+    className="ant-steps-item ant-steps-item-finish ant-steps-item-custom"
+    style={Object {}}
+  >
+    <div
+      className="ant-steps-item-container"
+    >
+      <div
+        className="ant-steps-item-tail"
+      />
+      <div
+        className="ant-steps-item-icon"
+      >
+        <span
+          className="ant-steps-icon"
+        >
+          <img
+            alt=""
+            data-testid="checked-step"
+            src="data:image/svg+xml;utf8,%3Csvg%20viewBox=%220%200%2017%2016%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20fill-rule=%22evenodd%22%20clip-rule=%22evenodd%22%20d=%22M8%2012.5C10.2091%2012.5%2012%2010.7091%2012%208.5C12%206.29086%2010.2091%204.5%208%204.5C5.79086%204.5%204%206.29086%204%208.5C4%2010.7091%205.79086%2012.5%208%2012.5Z%22%20fill=%22white%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d=%22M8.5%200C6.91775%200%205.37103%200.469192%204.05544%201.34824C2.73985%202.22729%201.71447%203.47672%201.10897%204.93853C0.503466%206.40034%200.34504%208.00887%200.653721%209.56072C0.962403%2011.1126%201.72433%2012.538%202.84315%2013.6569C3.96197%2014.7757%205.38743%2015.5376%206.93928%2015.8463C8.49113%2016.155%2010.0997%2015.9965%2011.5615%2015.391C13.0233%2014.7855%2014.2727%2013.7602%2015.1518%2012.4446C16.0308%2011.129%2016.5%209.58225%2016.5%208C16.4959%205.87952%2015.6518%203.84705%2014.1524%202.34764C12.653%200.848226%2010.6205%200.00406613%208.5%200ZM12.3077%206.6L7.8%2010.9077C7.68347%2011.0173%207.52922%2011.0779%207.36923%2011.0769C7.29103%2011.078%207.21338%2011.0637%207.14077%2011.0346C7.06815%2011.0056%207.00201%2010.9624%206.94616%2010.9077L4.69231%208.75384C4.6298%208.6993%204.57896%208.63269%204.54285%208.558C4.50673%208.48331%204.4861%208.40209%204.48218%208.31922C4.47826%208.23635%204.49113%208.15354%204.52003%208.07578C4.54893%207.99801%204.59325%207.92689%204.65034%207.86669C4.70742%207.8065%204.77609%207.75846%204.85221%207.72548C4.92833%207.69249%205.01034%207.67524%205.0933%207.67476C5.17626%207.67428%205.25846%207.69058%205.33496%207.72267C5.41146%207.75477%205.48068%207.802%205.53846%207.86154L7.36923%209.60769L11.4615%205.70769C11.5812%205.6033%2011.7366%205.5492%2011.8952%205.5567C12.0538%205.56421%2012.2034%205.63273%2012.3126%205.74796C12.4219%205.86318%2012.4824%206.01618%2012.4815%206.17497C12.4806%206.33376%2012.4183%206.48605%2012.3077%206.6Z%22%20fill=%22%23248BC0%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/svg%3E%0A%20%20%20%20"
+            style={
+              Object {
+                "color": undefined,
+                "fill": undefined,
+                "height": "16px",
+                "width": "17px",
+              }
+            }
+          />
+        </span>
+      </div>
+      <div
+        className="ant-steps-item-content"
+      >
+        <div
+          className="ant-steps-item-title"
+        >
+          Step 1
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ant-steps-item ant-steps-item-process ant-steps-item-custom ant-steps-item-active"
+    style={Object {}}
+  >
+    <div
+      className="ant-steps-item-container"
+    >
+      <div
+        className="ant-steps-item-tail"
+      />
+      <div
+        className="ant-steps-item-icon"
+      >
+        <span
+          className="ant-steps-icon"
+        >
+          <img
+            alt=""
+            data-testid="in-progress-step"
+            src="data:image/svg+xml;utf8,%3Csvg%20viewBox=%220%200%2016%2017%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20fill-rule=%22evenodd%22%20clip-rule=%22evenodd%22%20d=%22M8%2016.5C12.4183%2016.5%2016%2012.9183%2016%208.5C16%204.08172%2012.4183%200.5%208%200.5C3.58172%200.5%200%204.08172%200%208.5C0%2012.9183%203.58172%2016.5%208%2016.5Z%22%20fill=%22%23248BC0%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20fill-rule=%22evenodd%22%20clip-rule=%22evenodd%22%20d=%22M8%2012.5C10.2091%2012.5%2012%2010.7091%2012%208.5C12%206.29086%2010.2091%204.5%208%204.5C5.79086%204.5%204%206.29086%204%208.5C4%2010.7091%205.79086%2012.5%208%2012.5Z%22%20fill=%22white%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/svg%3E"
+            style={
+              Object {
+                "color": undefined,
+                "fill": undefined,
+                "height": "16px",
+                "width": "16px",
+              }
+            }
+          />
+        </span>
+      </div>
+      <div
+        className="ant-steps-item-content"
+      >
+        <div
+          className="ant-steps-item-title"
+        >
+          Step 2
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ant-steps-item ant-steps-item-wait ant-steps-item-custom"
+    style={Object {}}
+  >
+    <div
+      className="ant-steps-item-container"
+    >
+      <div
+        className="ant-steps-item-tail"
+      />
+      <div
+        className="ant-steps-item-icon"
+      >
+        <span
+          className="ant-steps-icon"
+        >
+          <img
+            alt=""
+            data-testid="oval"
+            src="data:image/svg+xml;utf8,%3Csvg%20viewBox=%220%200%2017%2016%22%20fill=%22none%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%0A%20%20%20%20%3Cpath%20fill-rule=%22evenodd%22%20clip-rule=%22evenodd%22%20d=%22M8.5%2016C12.9183%2016%2016.5%2012.4183%2016.5%208C16.5%203.58172%2012.9183%200%208.5%200C4.08172%200%200.5%203.58172%200.5%208C0.5%2012.4183%204.08172%2016%208.5%2016Z%22%20fill=%22white%22/%3E%0A%20%20%20%20%3Cpath%20fill-rule=%22evenodd%22%20clip-rule=%22evenodd%22%20d=%22M8.5%2012C10.7091%2012%2012.5%2010.2091%2012.5%208C12.5%205.79086%2010.7091%204%208.5%204C6.29086%204%204.5%205.79086%204.5%208C4.5%2010.2091%206.29086%2012%208.5%2012Z%22%20fill=%22%23CCCCCC%22/%3E%0A%20%20%20%20%3C/svg%3E%20%20%20%20%0A%20%20%20%20"
+            style={
+              Object {
+                "color": undefined,
+                "fill": undefined,
+                "height": "16px",
+                "width": "17px",
+              }
+            }
+          />
+        </span>
+      </div>
+      <div
+        className="ant-steps-item-content"
+      >
+        <div
+          className="ant-steps-item-title"
+        >
+          Step 3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

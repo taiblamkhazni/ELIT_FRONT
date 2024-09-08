@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert component works 1`] = `
+.c0 {
+  margin: initial;
+  color: #C91432;
+  text-align: initial;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+<span
+  className="c0"
+/>
+`;
